@@ -45,13 +45,11 @@ export default function AdminSignupScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Curved Header */}
       <View style={styles.header}>
         <Text style={styles.logo}>JobSwipe</Text>
         <Text style={styles.adminLabel}>Admin</Text>
       </View>
 
-      {/* Signup Form */}
       <View style={styles.formContainer}>
         <View style={styles.row}>
           <View style={styles.inputWrapper}>
